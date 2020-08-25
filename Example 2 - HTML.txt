@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+
+  <body>
+    
+<!-- NAV Bar -->
+  <ul id='nav'>
+    <li>Home</li>
+    <li>Profil</li>
+    <li>About</li>
+  </ul>
+
+<!-- Banner Image & Header -->
+  <div  class='banner'>
+    <h1>Ocean is Great!</h1>
+  </div>
+
+
+<!-- Body or Main Content of Our Site -->
+  <div id='blue' class='container'>
+    <h3>Main Site Content</h3>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    <button id='btn'>Change Color!</button>
+  </div>
+
+
+    <script src="script.js"></script>
+  </body>
+
+
+</html>

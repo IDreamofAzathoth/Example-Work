@@ -1,0 +1,23 @@
+// 1.) Target any needed HTML Elements using JS and save them to variables
+var btn = document.querySelector('#btn')
+var container = document.querySelector('.container')
+
+// 2.) Add event listners to HTML Elements that listens for a specific user event and then calls a function.
+btn.addEventListener("click", changeColor)
+
+// 3.) Create function to change the DOM/HTML 
+
+function changeColor() {
+  if(container.id === 'blue'){
+    container.id = 'purple'
+  }else{
+    container.id = 'blue'
+  }
+}
+
+
+
+
+
+
+
